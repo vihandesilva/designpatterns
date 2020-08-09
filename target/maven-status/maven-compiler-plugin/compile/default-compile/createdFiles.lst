@@ -1,0 +1,14 @@
+com\vd\singleton\Singleton.class
+com\vd\singleton\Main.class
+com\vd\singleton\Singleton$Holder.class
+simplealgorithms\ArrayAlgos.class
+factorypattern\Shape.class
+observer\Subject.class
+observer\Observer.class
+observer\BinaryObserver.class
+factorypattern\Circle.class
+factorypattern\Triangle.class
+factorypattern\Main.class
+factorypattern\Square.class
+observer\Main.class
+factorypattern\ShapeFactory.class
