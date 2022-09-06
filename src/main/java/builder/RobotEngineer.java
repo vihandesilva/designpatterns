@@ -8,14 +8,24 @@ package builder;
 /**
  *
  * @author Vihan De Silva
+ *
+ * RobotEngineer uses a Robot Builder Type  and creates an instantiated robot object
  */
-
-//RobotEngineer calls the RobotBuilder class and activates it.
 public class RobotEngineer {
     
     IRobotBuilder builder;
     
     public RobotEngineer(IRobotBuilder builder){
         this.builder = builder;
+    }
+    
+    public void createRobot() {
+    	this.builder.buildIq();
+    	this.builder.setName();
+    	this.builder.setActive();
+    }
+    
+    public Robot getRobot() {
+    	return this.builder.getRobot();
     }
 }

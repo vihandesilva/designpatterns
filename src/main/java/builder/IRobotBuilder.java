@@ -6,12 +6,15 @@
 package builder;
 
 /**
- *
+ * Blueprint for Robot Builder
  * @author Vihan De Silva
  */
 public interface IRobotBuilder {
-    public void setName(String name);
-    public void buildArms(int length);
-    public void buildLegs(int length);
-    public void buildArmor(int capacity);
+    public void setName();
+    
+    public void buildIq();
+    
+    public void setActive();
+    
+    public Robot getRobot();
 }
