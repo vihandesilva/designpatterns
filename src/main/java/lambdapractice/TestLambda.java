@@ -17,7 +17,7 @@ public class TestLambda {
         m.add(0, 0);
         
         //Overriding method in Anonymous inner class
-        Math math = new Math(){
+        Add math = new Add(){
             public int add(int a, int b){
                 int sum = a+b;
                 System.out.println("ANON INNER CLASS Sum: " + sum);
