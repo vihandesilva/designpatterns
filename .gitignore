@@ -1,1 +1,40 @@
-/target/
+# Ignore Maven target directory (compiled code, JARs, etc.)
+target/
+
+# Ignore Maven build output and logs
+*.log
+*.cache
+*.class
+*.war
+*.ear
+*.jar
+*.iml
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore NetBeans project files
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+.nbm/
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency directory (if using an alternative location)
+.mvn/
